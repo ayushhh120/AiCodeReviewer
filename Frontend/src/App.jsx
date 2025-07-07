@@ -42,7 +42,7 @@ async function reviewCode(){
   setLoading(true);
   setReview(""); // Clear previous review while loading
   try {
-    const response = await axios.post(`${import.meta.env.VITE_API_URL}/get-review`, { code });
+    const response = await axios.post(`${import.meta.env.VITE_API_URL}/api/ai/get-review`, { code });
 
     if (response && response.data) {
       setReview(response.data);
