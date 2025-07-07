@@ -42,8 +42,8 @@ async function reviewCode(){
   setLoading(true);
   setReview(""); // Clear previous review while loading
   try {
-    const response = await axios.post('http://localhost:3000/api/ai/get-review', { code });
-    // Defensive: check if response.data exists
+    const response = await axios.post(`${import.meta.env.REACT_APP_API_URL}/api/ai/get-review`, { code });
+
     if (response && response.data) {
       setReview(response.data);
     } else {
