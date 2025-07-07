@@ -7,9 +7,9 @@ const aiRoutes = require('./routes/ai.routes')
 app.use(express.json())
 
 app.use(cors({
-    origin: '*',
-    methods: ['GET', 'POST', 'OPTIONS']
-
+    origin: ['https://ai-code-reviewer-henna.vercel.app/ '],
+    methods: ['GET', 'POST', 'OPTIONS'],
+    credentials: true
 }))
 
 
