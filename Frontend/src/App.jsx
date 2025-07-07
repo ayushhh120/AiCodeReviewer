@@ -35,13 +35,23 @@ useEffect(() => {
   },[])
   
 async function reviewCode(){
+  if (code.trim() === "") {
+    setReview(""); // Optionally show a message or do nothing
+    return;
+  }
   setLoading(true);
+  setReview(""); // Clear previous review while loading
   try {
     const response = await axios.post('http://localhost:3000/api/ai/get-review', { code });
-    console.log(response.data);
-    setReview(response.data);
+    // Defensive: check if response.data exists
+    if (response && response.data) {
+      setReview(response.data);
+    } else {
+      setReview("No response from server.");
+    }
   } catch (error) {
     console.error('Error reviewing code:', error);
+    setReview("Error reviewing code. Please try again.");
   }
   setLoading(false);
 }
