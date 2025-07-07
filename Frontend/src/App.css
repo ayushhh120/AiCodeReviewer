@@ -20,7 +20,7 @@ main{
   gap: 1rem;
   background: linear-gradient(135deg, #031720, #203a43, #2c5364);
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow-x: hidden; 
 }
 
 main .left, main .right {
@@ -139,7 +139,6 @@ main .right .reviewContainer{
     gap: 1rem;
     height: auto;
     min-height: 100vh;
-    overflow: hidden;
   }
 
   /* Swap order: right (review) first, left (input) second */
