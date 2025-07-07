@@ -205,7 +205,7 @@ main .right .reviewContainer{
   }
 }
 
-@media (max-width: 410px) {
+@media only screen and (max-width: 500px)  {
   main {
     height: 100%;
     padding: 0.5rem;
@@ -259,22 +259,22 @@ main .right .reviewContainer{
 
     main .left .review{
     position: fixed;
-    bottom: 5rem;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
-    left: 330px;
-    height: 38px;
+    left: 300px;
+    height: 35px;
     z-index: 10;
    }
 
    main .right .clear{
-    height: 37px;
+    height: 35px;
     width: 76px;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2.4rem;
-    left: 330px;
+    bottom: 1.5rem;
+    left: 300px;
      z-index: 10;
    }
 }
