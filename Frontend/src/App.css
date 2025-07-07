@@ -260,7 +260,7 @@ main .right .reviewContainer{
     main .left .review{
     position: absolute;
     bottom: 3rem;
-    left: 350px;
+    left: 329px;
     height: 35px;
     /* z-index: 10; */
    }
@@ -270,7 +270,7 @@ main .right .reviewContainer{
     width: 76px;
     position: absolute;
     bottom: 1rem;
-    left: 350px;
+    left: 329px;
   
    }
 }
