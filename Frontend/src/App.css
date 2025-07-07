@@ -264,7 +264,9 @@ main .right .reviewContainer{
     bottom: 3rem;
     left: 329px;
     height: 35px;
-    /* z-index: 10; */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
    }
 
    main .right .clear{
@@ -273,6 +275,8 @@ main .right .reviewContainer{
     position: absolute;
     bottom: 1rem;
     left: 329px;
-  
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
    }
 }
