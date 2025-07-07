@@ -206,6 +206,8 @@ main .right .reviewContainer{
 
 @media (max-width: 395px) {
   main {
+    min-height: 100dvh;
+    height: auto;
     padding: 0.5rem;
     gap: 0.5rem;
     background: linear-gradient(135deg, #073042, #011218, #0c4761);
@@ -258,15 +260,21 @@ main .right .reviewContainer{
      main .left .review{
     position: fixed;
     bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
     left: 330px;
     height: 38px;
+    z-index: 10;
    }
 
    main .right .clear{
     height: 37px;
     width: 76px;
     position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 2.4rem;
     left: 330px;
+     z-index: 10;
    }
 }
