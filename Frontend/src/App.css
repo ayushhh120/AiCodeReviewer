@@ -259,22 +259,18 @@ main .right .reviewContainer{
 
     main .left .review{
     position: absolute;
-    bottom: 4rem;
-    left: 50%;
-    transform: translateX(-50%);
-    left: 300px;
+    bottom: 3rem;
+    left: 350px;
     height: 35px;
-    z-index: 10;
+    /* z-index: 10; */
    }
 
    main .right .clear{
     height: 35px;
     width: 76px;
     position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 1.5rem;
-    left: 300px;
-     z-index: 10;
+    bottom: 1rem;
+    left: 350px;
+  
    }
 }
