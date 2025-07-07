@@ -28,7 +28,7 @@ main .left, main .right {
   border-radius: 0.7rem;
   flex: 0 0 46vw;
   box-sizing: border-box;
-  /* overflow: auto; */
+
 }
 
 
@@ -36,7 +36,7 @@ main .left {
   display: flex;
   flex-direction: column;
   margin-left: 1%;
-   height: auto;        
+   height: 100vh;        
   overflow: visible;    
   box-shadow: 0 0 10px rgba(94, 234, 212, 0.3);
   background-color: rgba(255, 255, 255, 0.075);/
@@ -217,9 +217,9 @@ main .right .reviewContainer{
   }
 
   main .right {
-    height: 80vh;
-    min-height: 180px;
-    flex: 0 0 80vh;
+    height: 75vh;
+    min-height: 75vh;
+    flex: 0 0 75vh;
     width: 99.9%;
     overflow: auto;
     display: flex;
