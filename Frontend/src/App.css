@@ -43,7 +43,7 @@ main .left {
 main .left .review {
   position: absolute;
   bottom: 3rem;
-  left: 34.9rem;
+  left: 32rem;
   user-select: none;
   padding: 0.5rem 1rem;
   background-color: rgb(11, 40, 58);
@@ -72,11 +72,12 @@ main .right .reviewContainer{
   padding-top: 15px;
   width: 94%;
   padding-left: 35px;
+  padding-right: 20px;
   height: 97%;
   overflow: auto;
   scrollbar-width: thin;
   border-radius: 0.7rem;
-    background: linear-gradient(135deg, #031720, #203a43, #2c5364);
+  background: linear-gradient(135deg, #031720, #203a43, #2c5364);
   /* border: 2px solid rgba(255, 255, 255, 0.01); */
   box-shadow: 0 0 10px rgba(94, 234, 212, 0.3);
   font-size: 12px;
@@ -203,7 +204,7 @@ main .right .reviewContainer{
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 395px) {
   main {
     padding: 0.5rem;
     gap: 0.5rem;
@@ -256,8 +257,8 @@ main .right .reviewContainer{
 
      main .left .review{
     position: fixed;
-    bottom: 4.2rem;
-    left: 370px;
+    bottom: 5rem;
+    left: 330px;
     height: 38px;
    }
 
@@ -265,7 +266,7 @@ main .right .reviewContainer{
     height: 37px;
     width: 76px;
     position: fixed;
-    bottom: 1.5rem;
-    left: 370px;
+    bottom: 2.4rem;
+    left: 330px;
    }
 }
