@@ -204,10 +204,9 @@ main .right .reviewContainer{
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 400px) {
   main {
-    min-height: 100dvh;
-    height: auto;
+    height: 100%;
     padding: 0.5rem;
     gap: 0.5rem;
     background: linear-gradient(135deg, #073042, #011218, #0c4761);
