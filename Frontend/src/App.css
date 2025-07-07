@@ -258,7 +258,7 @@ main .right .reviewContainer{
 
 
     main .left .review{
-    position: fixed;
+    position: absolute;
     bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
@@ -270,7 +270,7 @@ main .right .reviewContainer{
    main .right .clear{
     height: 35px;
     width: 76px;
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 1.5rem;
