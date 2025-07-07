@@ -218,6 +218,7 @@ main .right .reviewContainer{
 
   main .right {
     height: 75vh;
+    position: relative;
     min-height: 75vh;
     flex: 0 0 75vh;
     width: 99.9%;
@@ -262,11 +263,11 @@ main .right .reviewContainer{
     main .left .review{
     position: absolute;
     bottom: 3rem;
-    left: 329px;
     height: 35px;
-    left: 50%;
+    left: 85%;
     transform: translateX(-50%);
     z-index: 10;
+    width: 85px;
    }
 
    main .right .clear{
@@ -274,8 +275,7 @@ main .right .reviewContainer{
     width: 76px;
     position: absolute;
     bottom: 1rem;
-    left: 329px;
-    left: 50%;
+    left: 85%;
     transform: translateX(-50%);
     z-index: 10;
    }
